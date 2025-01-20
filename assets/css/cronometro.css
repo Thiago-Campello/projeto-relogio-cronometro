@@ -1,0 +1,52 @@
+.start {
+    color: rgb(7, 196, 7);
+    background-color: rgba(0, 87, 0, 0.671);
+}
+
+.pause {
+    color: red;
+    background-color: rgba(95, 0, 0, 0.712);
+}
+
+.container .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.container .buttons button {
+    font-size: 18px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.container .buttons button:disabled {
+    cursor: default;
+}
+
+.container .clock-wrapper .buttons .volta {
+    color: #fff;
+    background: #222;
+}
+
+.container .clock-wrapper .buttons .volta:disabled {
+    color: #8a8989;
+    background: #33333360;
+}
+
+.text-wrapper {
+    margin-top: 20px;
+    padding: 10px 0;
+    width: 53%;
+    border-top: 0.25px solid #ffffff42;
+}
+
+.text-wrapper .texts {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 0.25px solid #ffffff42;
+}
+
