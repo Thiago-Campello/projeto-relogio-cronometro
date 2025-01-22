@@ -13,6 +13,7 @@
     width: 100%;
     justify-content: space-around;
 }
+
 .container .buttons button {
     font-size: 18px;
     height: 70px;
@@ -28,7 +29,7 @@
 
 .container .clock-wrapper .buttons .volta {
     color: #fff;
-    background: #222;
+    background: #474747;
 }
 
 .container .clock-wrapper .buttons .volta:disabled {
