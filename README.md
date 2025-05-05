@@ -62,7 +62,7 @@ RELÓGIO/
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Campejo/projeto-relogio-cronometro.git
+   git clone https://github.com/Thiago-Campello/projeto-relogio-cronometro.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
